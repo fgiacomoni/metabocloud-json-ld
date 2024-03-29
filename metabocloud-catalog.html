@@ -1,5 +1,11 @@
 <script type="application/ld+json" >
 [
+  "@context": {
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "dct": "http://purl.org/dc/terms/",
+        "odrs": "http://schema.theodi.org/odrs#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
   {
     "@graph": [
       {
@@ -36,9 +42,9 @@
         "http://schema.org/isAccessibleForFree": [
           {"@value": true}
         ],
-        "http://purl.org/dc/terms/license": {
+        "dct:license": {
           "@id": "https://opensource.org/license/mit/",
-          "http://purl.org/dc/terms/title": "MIT"
+          "dct:title": "MIT"
         }
       },
       {
