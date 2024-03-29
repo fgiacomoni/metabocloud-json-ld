@@ -1,105 +1,36 @@
 <script type="application/ld+json" >
-{
-  "@context": "https://schema.org",
-  "http://purl.org/dc/terms/conformsTo": [
-    {"@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"}
-  ],
-  "@id": "https://bio.tools/metabocloud#html",
-  "name": [
-    "MetaboCloud"
-  ],
-  "identifier": {"@value": "https://identifiers.org/biotools:metabocloud"},
-  "url": "https://metabocloud.mesocentre.uca.fr",
-  "description": "A catalogue of microservices for metabolomics",
-  "@type":["schema:ComputationalTool"],
-  "applicationCategory": [
-    "http://semanticscience.org/resource/SIO_001190"
-  ],
-  "applicationSubCategory": [
-    "http://edamontology.org/topic_3172",
-    "http://edamontology.org/topic_0091",
-    "http://edamontology.org/topic_2258"
-  ],
-  "author": [
-    {
-      "@id":"https://orcid.org/0000-0003-4550-1258",
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-      "description": [
-        "Principal code developer"
-      ],
-      "name": "Faustine Souc"
-    }
-    {
-      "@id":"https://orcid.org/0000-0003-2750-1473",
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-      "description": [
-        "Project PI"
-      ],
-      "name": "Nadia Goué"
-    }
-    {
-      "@id":"https://orcid.org/0000-0001-6063-4214",
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-      "description": [
-        "Project PI"
-      ],
-      "name": "Franck Giacomoni"
-    }
-  ],
-  "citation": [
-    {
-      "@id": "https://bio.tools/metabocloud",
-      "@type": "CreativeWork"
-    }
-  ],
-  "contributor": [
-    {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
-    {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-    {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
-  ],
-  "provider": [
-    {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-    {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
-    {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
-  ],
-  
-
-  "codeRepository": [
-    "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
-  ],
-  "featureList": [
-    {"@id":"http://edamontology.org/operation_0226"},
-    {"@id":"http://edamontology.org/operation_2421"},
-    {"@id":"http://edamontology.org/operation_3434"},
-    {"@id":"http://purl.obolibrary.org/obo/T4FS_0000036"},
-    {"@id":"http://edamontology.org/operation_0337"},
-  ],
-  "funder": [
-    {"@id":"https://ror.org/039gscz82","@type":["schema:Organization"],"@value": "MetaboHUB"},
-    {"@id":"https://ror.org/01a8ajp46","@type":["schema:Organization"],"@value": "UCA"},
-    {"@id":"https://ror.org/003vg9w96","@type":["schema:Organization"],"@value": "INRAE"},
-  ],
-  "hasPart": [
-    {"@id":"https://bio.tools/cdk","@type":["schema:CreativeWork"]},
-    {"@id":"https://bio.tools/goslin","@type":["schema:CreativeWork"]},
-    {"@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc","@type":["schema:CreativeWork"]},
-  ],
-  "isAccessibleForFree": [
-    {"@value": true}
-  ],
-  "keywords": "Bioinformatics,Metabolomics,Chemistry",
-  "license": [
-    "https://opensource.org/license/mit/"
-  ],
-  "programmingLanguage": [
-    {"@id": "https://w.wiki/9bxW","@type": "ComputerLanguage"}
-  ],
-  "softwareVersion": "1.0.0",
-}
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://bio.tools/metabocloud",
+        "@type": [
+          "http://schema.org/SoftwareApplication"
+        ],
+        "http://purl.org/dc/terms/conformsTo": [
+          {
+            "@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
+          }
+        ],
+        "http://schema.org/applicationCategory": [
+          {
+            "@id": "http://semanticscience.org/resource/SIO_001190"
+          },
+        ],
+        "http://schema.org/applicationSubCategory": [
+          {
+            "@id": "http://edamontology.org/topic_3172"
+          },
+          {
+            "@id": "http://edamontology.org/topic_0091"
+          },
+          {
+            "@id": "http://edamontology.org/topic_2258"
+          },
+        ],
+      }
+    ],
+    "@id": "https://bio.tools/metabocloud#html"
+  }
+]
 </script >
