@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@id": "https://metabocloud.mesocentre.uca.fr/",
+  "@type": "ComputationalTool",
+  "applicationCategory": [
+    "http://semanticscience.org/resource/SIO_001190"
+  ],
+  "applicationSubCategory": [
+    "http://edamontology.org/topic_3172",
+    "http://edamontology.org/topic_0091",
+    "http://edamontology.org/topic_2258"
+  ],
+  "applicationSuite": [],
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
+      "description": [
+        "Project PI"
+      ],
+      "name": "Franck Giacomoni"
+    }
+  ],
+  "citation": [
+    {
+      "@id": "https://bio.tools/metabocloud",
+      "@type": "CreativeWork"
+    }
+  ],
+  "codeRepository": [
+    "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
+  ],
+  "contributor": [],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+  "description": "XXx",
+  "downloadUrl": [],
+  "featureList": [],
+  "funder": [],
+  "hasPart": [],
+  "identifier": [],
+  "isAccessibleForFree": true,
+  "keywords": "Bioinformatics,Metabolomics,Chemistry",
+  "license": [
+    "https://opensource.org/license/mit/"
+  ],
+  "name": [
+    "MetaboCloud"
+  ],
+  "programmingLanguage": [],
+  "provider": [],
+  "softwareVersion": "1.0.0",
+  "url": "https://metabocloud.mesocentre.uca.fr/"
+}
