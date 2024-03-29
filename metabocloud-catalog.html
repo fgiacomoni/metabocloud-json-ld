@@ -1,15 +1,17 @@
 <script type="application/ld+json" >
 {
   "@context": "https://schema.org",
-  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
-  "@id": "https://metabocloud.mesocentre.uca.fr",
+  "http://purl.org/dc/terms/conformsTo": [
+    {"@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"}
+  ],
+  "@id": "https://bio.tools/metabocloud#html",
   "name": [
     "MetaboCloud"
   ],
   "identifier": {"@value": "https://identifiers.org/biotools:metabocloud"},
   "url": "https://metabocloud.mesocentre.uca.fr",
   "description": "A catalogue of microservices for metabolomics",
-  "@type": "ComputationalTool",
+  "@type":["schema:ComputationalTool"],
   "applicationCategory": [
     "http://semanticscience.org/resource/SIO_001190"
   ],
@@ -79,16 +81,18 @@
     {"@id":"http://edamontology.org/operation_0337"},
   ],
   "funder": [
-    {"@id":"https://ror.org/039gscz82","@type":["schema:Organization"]},
-    {"@id":"https://ror.org/01a8ajp46","@type":["schema:Organization"]},
-    {"@id":"https://ror.org/003vg9w96","@type":["schema:Organization"]},
+    {"@id":"https://ror.org/039gscz82","@type":["schema:Organization"],"@value": "MetaboHUB"},
+    {"@id":"https://ror.org/01a8ajp46","@type":["schema:Organization"],"@value": "UCA"},
+    {"@id":"https://ror.org/003vg9w96","@type":["schema:Organization"],"@value": "INRAE"},
   ],
   "hasPart": [
     {"@id":"https://bio.tools/cdk","@type":["schema:CreativeWork"]},
     {"@id":"https://bio.tools/goslin","@type":["schema:CreativeWork"]},
     {"@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc","@type":["schema:CreativeWork"]},
   ],
-  "isAccessibleForFree": true,
+  "isAccessibleForFree": [
+    {"@value": true}
+  ],
   "keywords": "Bioinformatics,Metabolomics,Chemistry",
   "license": [
     "https://opensource.org/license/mit/"
