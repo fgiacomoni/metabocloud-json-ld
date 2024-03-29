@@ -21,9 +21,10 @@
     {
       "@context": "https://schema.org",
       "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6063-4214",
       "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
       "name": "Franck Giacomoni",
-      "@id":"https://orcid.org/0000-0001-6063-4214",
+
     }
   ],
   "url": "https://metabocloud.mesocentre.uca.fr/"
