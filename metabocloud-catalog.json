@@ -5,7 +5,7 @@
   "name": [
     "MetaboCloud"
   ],
-  "identifier": "https://bio.tools/metabocloud"
+  "identifier": "https://bio.tools/metabocloud",
   "url": "https://metabocloud.mesocentre.uca.fr",
   "description": "A catalogue of microservices for metabolomics",
   "@type": "ComputationalTool",
