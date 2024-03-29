@@ -15,15 +15,15 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "dct:conformsTo": "https://bioschemas.org/profiles/Organization/0.2-DRAFT-2019_07_19",
-      "description": "",
-      "name": ""
+      "description": "French National infrastructure in metabolomics & fluxomics",
+      "name": "MetaboHUB"
     },
     {
       "@context": "https://schema.org",
       "@type": "Person",
       "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-      "description": [],
-      "name": ""
+      "name": "Franck Giacomoni",
+      "@id":"https://orcid.org/0000-0001-6063-4214",
     }
   ],
   "url": "https://metabocloud.mesocentre.uca.fr/"
