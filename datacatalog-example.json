@@ -10,7 +10,6 @@
     "http://edamontology.org/topic_0091",
     "http://edamontology.org/topic_2258"
   ],
-  "applicationSuite": [],
   "author": [
     {
       "@context": "https://schema.org",
@@ -31,14 +30,8 @@
   "codeRepository": [
     "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
   ],
-  "contributor": [],
   "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
   "description": "XXx",
-  "downloadUrl": [],
-  "featureList": [],
-  "funder": [],
-  "hasPart": [],
-  "identifier": [],
   "isAccessibleForFree": true,
   "keywords": "Bioinformatics,Metabolomics,Chemistry",
   "license": [
@@ -47,8 +40,6 @@
   "name": [
     "MetaboCloud"
   ],
-  "programmingLanguage": [],
-  "provider": [],
   "softwareVersion": "1.0.0",
   "url": "https://metabocloud.mesocentre.uca.fr/"
 }
