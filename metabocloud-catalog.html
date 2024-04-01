@@ -42,7 +42,7 @@
     "dct:rights": {
       "@id": "http://gov.example.org/dataset/example#rights"
     },
-    "schema:provider": [
+    "schema:funder": [
       {
         "@type": "schema:Organization",
         "@id": "https://ror.org/039gscz82",
@@ -88,6 +88,42 @@
         "schema:name": "Franck Giacomoni",
         "schema:description": "Project PI"
       }
+    ],
+    "schema:provider": [
+      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
+    ],
+    "schema:contributor": [
+      {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
+    ],
+    "schema:citation": [
+      {
+        "@id": "https://bio.tools/metabocloud",
+        "@type": "CreativeWork"
+      }
+    ],
+    "schema:programmingLanguage": [
+      {"@id": "https://w.wiki/9bxW","@type": "ComputerLanguage"}
+    ],
+    "schema:softwareVersion": "1.0.0",
+    "schema:keywords": "Bioinformatics,Metabolomics,Chemistry",
+    "schema:hasPart": [
+      {"@id":"https://bio.tools/cdk","@type":["schema:CreativeWork"]},
+      {"@id":"https://bio.tools/goslin","@type":["schema:CreativeWork"]},
+      {"@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc","@type":["schema:CreativeWork"]}
+    ],
+    "schema:codeRepository": [
+      "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
+    ],
+    "schema:featureList": [
+      {"@id":"http://edamontology.org/operation_0226"},
+      {"@id":"http://edamontology.org/operation_2421"},
+      {"@id":"http://edamontology.org/operation_3434"},
+      {"@id":"http://purl.obolibrary.org/obo/T4FS_0000036"},
+      {"@id":"http://edamontology.org/operation_0337"}
     ]
   }
 </script >
