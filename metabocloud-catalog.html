@@ -1,41 +1,46 @@
 <script type="application/ld+json" >
 [
   {  
-    "@context": "http://schema.org/"
+    "@context": [
+      {
+        "dct": "http://purl.org/dc/terms/",
+        "schema": "schema:"
+      }
+    ],
   },
   {
     "@graph": [
       {
         "@id": "https://bio.tools/metabocloud",
         "@type": [
-          "http://schema.org/ComputationalTool"
+          "schema:ComputationalTool"
         ],
         "http://purl.org/dc/terms/conformsTo": [
           {
             "@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
           }
         ],
-        "http://schema.org/name": [
+        "schema:name": [
           {
             "@value": "MetaboCloud"
           }
         ],
-        "http://schema.org/description": [
+        "schema:description": [
           {
             "@value": "A catalogue of microservices for metabolomics"
           }
         ],
-        "http://schema.org/identifier": [
+        "schema:identifier": [
           {
             "@id": "https://identifiers.org/biotools:metabocloud"
           }
         ],
-        "http://schema.org/applicationCategory": [
+        "schema:applicationCategory": [
           {
             "@id": "http://semanticscience.org/resource/SIO_001190"
           }
         ],
-        "http://schema.org/applicationSubCategory": [
+        "schema:applicationSubCategory": [
           {
             "@id": "http://edamontology.org/topic_3172"
           },
@@ -46,21 +51,20 @@
             "@id": "http://edamontology.org/topic_2258"
           }
         ],
-        "http://schema.org/isAccessibleForFree": [
+        "schema:isAccessibleForFree": [
           {"@value": true}
         ],
-        "http://schema.org/url": [
+        "schema:url": [
           {"@value": "https://metabocloud.mesocentre.uca.fr"}
         ],
-        "http://purl.org/dc/terms/license": [
+        "dct:license": [
           {
             "@id": "https://opensource.org/license/mit/"
           }
         ]
-        "http://schema.org/author": [
+        "schema:author": [
           {
             "@id":"https://orcid.org/0000-0003-4550-1258",
-            "@context": "https://schema.org",
             "@type": "Person",
             "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
             "description": [
@@ -70,7 +74,6 @@
           }
           {
             "@id":"https://orcid.org/0000-0003-2750-1473",
-            "@context": "https://schema.org",
             "@type": "Person",
             "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
             "description": [
@@ -80,7 +83,6 @@
           }
           {
             "@id":"https://orcid.org/0000-0001-6063-4214",
-            "@context": "https://schema.org",
             "@type": "Person",
             "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
             "description": [
@@ -89,18 +91,18 @@
             "name": "Franck Giacomoni"
           }
         ],
-        "http://schema.org/citation": [
+        "schema:citation": [
           {
             "@id": "https://bio.tools/metabocloud",
             "@type": "CreativeWork"
           }
         ],
-        "http://schema.org/contributor": [
+        "schema:contributor": [
           {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
           {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
           {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
         ],
-        "http://schema.org/provider": [
+        "schema:provider": [
           {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
           {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
           {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
@@ -111,19 +113,19 @@
         "@type": [
           "http://bioschemas.org/types/FormalParameter"
         ],
-        "http://schema.org/identifier": [
+        "schema:identifier": [
           {
             "@value": "http://edamontology.org/data_3671"
           }
         ],
-        "http://schema.org/name": [
+        "schema:name": [
           {
             "@value": "Text"
           }
         ]
       }
     ],
-    "@id": "https://bio.tools/metabocloud#html"
+    "@id": "https://bio.tools/metabocloud"
   }
 ]
 </script >
