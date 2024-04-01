@@ -111,9 +111,21 @@
     "schema:softwareVersion": "1.0.0",
     "schema:keywords": "Bioinformatics,Metabolomics,Chemistry",
     "schema:hasPart": [
-      {"@id":"https://bio.tools/cdk","@type":["schema:CreativeWork"]},
-      {"@id":"https://bio.tools/goslin","@type":["schema:CreativeWork"]},
-      {"@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc","@type":["schema:CreativeWork"]}
+      {
+        "@id":"https://bio.tools/cdk",
+        "@type": "schema:ComputationalTool",
+        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
+      },
+      {
+        "@id":"https://bio.tools/goslin",
+        "@type": "schema:ComputationalTool",
+        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
+      },
+      {
+        "@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc",
+        "@type": "schema:ComputationalTool",
+        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
+      }
     ],
     "schema:codeRepository": [
       "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
