@@ -1,104 +1,113 @@
 <script type="application/ld+json" >
+  {
+    "@context": {
+      "dct": "http://purl.org/dc/terms/",
+      "schema": "http://schema.org/"
+    },
+    "@id": "https://bio.tools/metabocloud",
+    "@type": [
+      "schema:ComputationalTool"
+    ],
+    "dct:conformsTo": [
       {
-        "@context": {
-              "dct": "http://purl.org/dc/terms/",
-              "schema": "http://schema.org/"
-        },
-        "@id": "https://bio.tools/metabocloud",
-        "@type": [
-          "schema:ComputationalTool"
-        ],
-        "http://purl.org/dc/terms/conformsTo": [
-          {
-            "@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
-          }
-        ],
-        "schema:name": [
-          {
-            "@value": "MetaboCloud"
-          }
-        ],
-        "schema:description": [
-          {
-            "@value": "A catalogue of microservices for metabolomics"
-          }
-        ],
-        "schema:identifier": [
-          {
-            "@id": "https://identifiers.org/biotools:metabocloud"
-          }
-        ],
-        "schema:applicationCategory": [
-          {
-            "@id": "http://semanticscience.org/resource/SIO_001190"
-          }
-        ],
-        "schema:applicationSubCategory": [
-          {
-            "@id": "http://edamontology.org/topic_3172"
-          },
-          {
-            "@id": "http://edamontology.org/topic_0091"
-          },
-          {
-            "@id": "http://edamontology.org/topic_2258"
-          }
-        ],
-        "schema:isAccessibleForFree": [
-          {"@value": true}
-        ],
-        "schema:url": [
-          {"@value": "https://metabocloud.mesocentre.uca.fr"}
-        ],
-        "dct:license": [
-          {
-            "@id": "https://opensource.org/license/mit/"
-          }
-        ],
-        "schema:author": [
-          {
-            "@id":"https://orcid.org/0000-0003-4550-1258",
-            "@type": "Person",
-            "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-            "description": [
-              "Principal code developer"
-            ],
-            "name": "Faustine Souc"
-          },
-          {
-            "@id":"https://orcid.org/0000-0003-2750-1473",
-            "@type": "Person",
-            "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-            "description": [
-              "Project PI"
-            ],
-            "name": "Nadia Goué"
-          },
-          {
-            "@id":"https://orcid.org/0000-0001-6063-4214",
-            "@type": "Person",
-            "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.2-DRAFT-2019_07_19",
-            "description": [
-              "Project PI"
-            ],
-            "name": "Franck Giacomoni"
-          }
-        ],
-        "schema:citation": [
-          {
-            "@id": "https://bio.tools/metabocloud",
-            "@type": "CreativeWork"
-          }
-        ],
-        "schema:contributor": [
-          {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
-          {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-          {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
-        ],
-        "schema:provider": [
-          {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-          {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
-          {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
-        ]
+        "@value": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       }
+    ],
+    "schema:name": [
+      {
+        "@value": "MetaboCloud"
+      }
+    ],
+    "schema:description": [
+      {
+        "@value": "A catalogue of microservices for metabolomics"
+      }
+    ],
+    "schema:identifier": [
+      {
+        "@id": "https://identifiers.org/biotools:metabocloud"
+      }
+    ],
+    "schema:applicationCategory": [
+      {
+        "@id": "http://semanticscience.org/resource/SIO_001190"
+      }
+    ],
+    "schema:applicationSubCategory": [
+      {
+        "@id": "http://edamontology.org/topic_3172"
+      },
+      {
+        "@id": "http://edamontology.org/topic_0091"
+      },
+      {
+        "@id": "http://edamontology.org/topic_2258"
+      }
+    ],
+    "schema:isAccessibleForFree": [
+      {"@value": true}
+    ],
+    "schema:url": [
+      {"@value": "https://metabocloud.mesocentre.uca.fr"}
+    ],
+    "dct:license": [
+      {
+        "@value": "https://opensource.org/license/mit/"
+      }
+    ],
+    "schema:author": [
+      {
+        "@id":"https://orcid.org/0000-0003-4550-1258",
+        "@type": "Person",
+        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+        "description": [
+          "Principal Microservices code developer"
+        ],
+        "name": "Faustine Souc"
+      },
+      {
+        "@id":"https://orcid.org/0009-0001-6661-0691",
+        "@type": "Person",
+        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+        "description": [
+          "Principal Web portal code developer"
+        ],
+        "name": "Thomas Bellambois"
+      },
+      {
+        "@id":"https://orcid.org/0000-0003-2750-1473",
+        "@type": "Person",
+        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+        "description": [
+          "Project PI"
+        ],
+        "name": "Nadia Goué"
+      },
+      {
+        "@id":"https://orcid.org/0000-0001-6063-4214",
+        "@type": "Person",
+        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+        "description": [
+          "Project PI"
+        ],
+        "name": "Franck Giacomoni"
+      }
+    ],
+    "schema:citation": [
+      {
+        "@id": "https://bio.tools/metabocloud",
+        "@type": "CreativeWork"
+      }
+    ],
+    "schema:contributor": [
+      {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
+    ],
+    "schema:provider": [
+      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
+      {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
+    ]
+  }
 </script >
