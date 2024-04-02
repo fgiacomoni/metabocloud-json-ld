@@ -5,7 +5,8 @@
     },
     "@id": "https://bio.tools/metabocloud",
     "@type": [
-      "schema:SoftwareApplication"
+      "schema:SoftwareApplication",
+       "schema:SoftwareSourceCode"
     ],
     "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
     "schema:name": "MetaboCloud",
