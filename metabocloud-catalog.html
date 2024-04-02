@@ -6,7 +6,8 @@
     },
     "@id": "https://bio.tools/metabocloud",
     "@type": [
-      "schema:ComputationalTool"
+      "schema:SoftwareApplication",
+      "schema:SoftwareSourceCode"
     ],
     "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
     "schema:name": "MetaboCloud",
@@ -106,28 +107,28 @@
     "schema:citation": [
       {
         "@id": "https://bio.tools/metabocloud",
-        "@type": "CreativeWork"
+        "@type": "schema:SoftwareApplication"
       }
     ],
     "schema:programmingLanguage": [
-      {"@id": "https://w.wiki/9bxW","@type": "ComputerLanguage"}
+      {"@id": "https://w.wiki/9bxW","@type": "SoftwareApplication", "@value": "Go"}
     ],
     "schema:softwareVersion": "1.0.0",
     "schema:keywords": "Bioinformatics,Metabolomics,Chemistry",
     "schema:hasPart": [
       {
         "@id":"https://bio.tools/cdk",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       },
       {
         "@id":"https://bio.tools/goslin",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       },
       {
         "@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       }
     ],
