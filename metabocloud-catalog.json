@@ -106,7 +106,7 @@
     "schema:citation": [
       {
         "@id": "https://bio.tools/metabocloud",
-        "@type": "CreativeWork"
+        "@type": "schema:SoftwareApplication"
       }
     ],
     "schema:programmingLanguage": [
@@ -117,17 +117,17 @@
     "schema:hasPart": [
       {
         "@id":"https://bio.tools/cdk",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       },
       {
         "@id":"https://bio.tools/goslin",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       },
       {
         "@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc",
-        "@type": "schema:ComputationalTool",
+        "@type": "schema:SoftwareApplication",
         "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
       }
     ],
