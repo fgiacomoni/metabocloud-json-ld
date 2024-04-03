@@ -1,144 +1,188 @@
 {
-    "@context": {
-      "dct": "http://purl.org/dc/terms/",
-      "schema": "http://schema.org/"
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/"
+  },
+  "@id": "https://bio.tools/metabocloud",
+  "@type": [
+    "schema:SoftwareApplication",
+    "schema:SoftwareSourceCode"
+  ],
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+  "schema:name": "MetaboCloud",
+  "schema:description": "A catalogue of microservices for metabolomics",
+  "schema:mainEntityOfPage": "https://bio.tools/metabocloud#html",
+  "schema:identifier": [
+    {
+      "@id": "https://identifiers.org/biotools:metabocloud"
+    }
+  ],
+  "schema:applicationCategory": [
+    {
+      "@id": "http://semanticscience.org/resource/SIO_001190"
+    }
+  ],
+  "schema:applicationSubCategory": [
+    {
+      "@id": "http://edamontology.org/topic_3172"
     },
-    "@id": "https://bio.tools/metabocloud",
-    "@type": [
-      "schema:SoftwareApplication",
-      "schema:SoftwareSourceCode"
-    ],
-    "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
-    "schema:name": "MetaboCloud",
-    "schema:description": "A catalogue of microservices for metabolomics",
-    "schema:mainEntityOfPage": "https://bio.tools/metabocloud#html",
-    "schema:identifier": [
-      {
-        "@id": "https://identifiers.org/biotools:metabocloud"
-      }
-    ],
-    "schema:applicationCategory": [
-      {
-        "@id": "http://semanticscience.org/resource/SIO_001190"
-      }
-    ],
-    "schema:applicationSubCategory": [
-      {
-        "@id": "http://edamontology.org/topic_3172"
-      },
-      {
-        "@id": "http://edamontology.org/topic_0091"
-      },
-      {
-        "@id": "http://edamontology.org/topic_2258"
-      }
-    ],
-    "schema:isAccessibleForFree": true,
-    "schema:url": "https://metabocloud.mesocentre.uca.fr",
-    "dct:license": {
-      "@id": "https://opensource.org/license/mit/",
-      "dct:title": "MIT: Massachusetts Institute of Technology"
+    {
+      "@id": "http://edamontology.org/topic_0091"
     },
-    "dct:rights": {
-      "@id": "http://gov.example.org/dataset/example#rights"
+    {
+      "@id": "http://edamontology.org/topic_2258"
+    }
+  ],
+  "schema:isAccessibleForFree": true,
+  "schema:url": "https://metabocloud.mesocentre.uca.fr",
+  "dct:license": {
+    "@id": "https://opensource.org/license/mit/",
+    "dct:title": "MIT: Massachusetts Institute of Technology"
+  },
+  "dct:rights": {
+    "@id": "https://metabocloud.mesocentre.uca.fr/about"
+  },
+  "schema:funder": [
+    {
+      "@type": "schema:Organization",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Organization/0.3-DRAFT",
+      "@id": "https://ror.org/039gscz82",
+      "schema:legalName": "IR MetaboHUB",
+      "schema:name": "MetaboHUB - PFEM",
+      "schema:description": "National infrastructure in metabolomics & fluxomics",
+      "schema:sameAs": "https://www.metabohub.fr",
+      "https://discovery.biothings.io/view/bioschemasdrafts/topic": [
+        {"@id": "http://edamontology.org/topic_3172"},
+        {"@id": "http://edamontology.org/topic_3316"}
+      ]
     },
-    "schema:funder": [
-      {
-        "@type": "schema:Organization",
-        "@id": "https://ror.org/039gscz82",
-        "schema:name": "MetaboHUB, PFEM"
-      },
-      {
-        "@type": "schema:Organization",
-        "@id": "https://ror.org/01a8ajp46",
-        "schema:name": "University of Clermont Auvergne - DOSI"
-      },
-      {
-        "@type": "schema:Organization",
-        "@id": "https://ror.org/003vg9w96",
-        "schema:name": "National Research Institute for Agriculture, Food and Environment, PFEM"
-      }
-    ],
-    "schema:author": [
-      {
-        "@type": "schema:Person",
-        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
-        "@id": "https://orcid.org/0009-0001-6661-0691",
-        "schema:name": "Thomas Bellambois",
-        "schema:description": "Web portal catalog code developer",
-        "schema:mainEntityOfPage": "https://fr.linkedin.com/in/thomas-bellembois-643359237/"
-      },
-      {
-        "@type": "schema:Person",
-        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
-        "@id": "https://orcid.org/0000-0003-4550-1258",
-        "schema:name": "Faustine Souc",
-        "schema:description": "Microservices code developer",
-        "schema:mainEntityOfPage": "https://www.linkedin.com/in/faustine-souc-9743311a3/"
-      },
-      {
-        "@type": "schema:Person",
-        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
-        "@id": "https://orcid.org/0000-0003-2750-1473",
-        "schema:name": "Nadia Goué",
-        "schema:description": "Project PI",
-        "schema:mainEntityOfPage": "https://www.linkedin.com/in/nadia-goue-b0bb3a27/"
-      },
-      {
-        "@type": "schema:Person",
-        "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
-        "@id": "https://orcid.org/0000-0001-6063-4214",
-        "schema:name": "Franck Giacomoni",
-        "schema:description": "Project PI",
-        "schema:mainEntityOfPage": "https://www.linkedin.com/in/franck-giacomoni-1979a074/"
-      }
-    ],
-    "schema:provider": [
-      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-      {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
-      {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
-    ],
-    "schema:contributor": [
-      {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
-      {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
-      {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
-    ],
-    "schema:citation": [
-      {
-        "@id": "https://bio.tools/metabocloud",
-        "@type": "schema:SoftwareApplication"
-      }
-    ],
-    "schema:programmingLanguage": [
-      {"@id": "https://w.wiki/9bxW","@type": "SoftwareApplication", "@value": "Go"}
-    ],
-    "schema:softwareVersion": "1.0.0",
-    "schema:keywords": "Bioinformatics,Metabolomics,Chemistry",
-    "schema:hasPart": [
-      {
-        "@id":"https://bio.tools/cdk",
-        "@type": "schema:SoftwareApplication",
-        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
-      },
-      {
-        "@id":"https://bio.tools/goslin",
-        "@type": "schema:SoftwareApplication",
-        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
-      },
-      {
-        "@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc",
-        "@type": "schema:SoftwareApplication",
-        "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE"
-      }
-    ],
-    "schema:codeRepository": [
-      "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"
-    ],
-    "schema:featureList": [
-      {"@id":"http://edamontology.org/operation_0226"},
-      {"@id":"http://edamontology.org/operation_2421"},
-      {"@id":"http://edamontology.org/operation_3434"},
-      {"@id":"http://purl.obolibrary.org/obo/T4FS_0000036"},
-      {"@id":"http://edamontology.org/operation_0337"}
-    ]
-  }
+    {
+      "@type": "schema:Organization",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Organization/0.3-DRAFT",
+      "@id": "https://ror.org/01a8ajp46",
+      "schema:legalName": "University of Clermont Auvergne",
+      "schema:name": "UCA - DOSI",
+      "schema:description": "The university is committed to developing educational programmes for an international public and to enhancing its research at an international level. ",
+      "schema:sameAs": "https://www.uca.fr/",
+      "https://discovery.biothings.io/view/bioschemasdrafts/topic": [
+        {"@id": "http://edamontology.org/topic_3070"},
+        {"@id": "http://edamontology.org/topic_3303"},
+        {"@id": "http://edamontology.org/topic_3318"},
+        {"@id": "http://edamontology.org/topic_3315"},
+        {"@id": "http://edamontology.org/topic_0605"}
+      ]
+    },
+    {
+      "@type": "schema:Organization",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Organization/0.3-DRAFT",
+      "@id": "https://ror.org/003vg9w96",
+      "schema:legalName": "National Research Institute for Agriculture, Food and Environment",
+      "schema:name": "INRAE - PFEM",
+      "schema:description": "INRAE est un institut de recherche public oeuvrant pour un développement cohérent et durable de l'agriculture, l'alimentation et l'environnement.",
+      "schema:sameAs": "https://www.inrae.fr/",
+      "https://discovery.biothings.io/view/bioschemasdrafts/topic": [
+        {"@id": "http://edamontology.org/topic_3810"},
+        {"@id": "http://edamontology.org/topic_3855"},
+        {"@id": "http://edamontology.org/topic_3307"},
+        {"@id": "http://edamontology.org/topic_3316"},
+        {"@id": "http://edamontology.org/topic_3344"}
+        ]
+    }
+  ],
+  "schema:author": [
+    {
+      "@type": "schema:Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+      "@id": "https://orcid.org/0009-0001-6661-0691",
+      "schema:name": "Thomas Bellambois",
+      "schema:description": "Web portal catalog code developer",
+      "schema:mainEntityOfPage": "https://fr.linkedin.com/in/thomas-bellembois-643359237/"
+    },
+    {
+      "@type": "schema:Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+      "@id": "https://orcid.org/0000-0003-4550-1258",
+      "schema:name": "Faustine Souc",
+      "schema:description": "Microservices code developer",
+      "schema:mainEntityOfPage": "https://www.linkedin.com/in/faustine-souc-9743311a3/"
+    },
+    {
+      "@type": "schema:Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+      "@id": "https://orcid.org/0000-0003-2750-1473",
+      "schema:name": "Nadia Goué",
+      "schema:description": "Project PI",
+      "schema:mainEntityOfPage": "https://www.linkedin.com/in/nadia-goue-b0bb3a27/"
+    },
+    {
+      "@type": "schema:Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+      "@id": "https://orcid.org/0000-0002-9729-1603",
+      "schema:name": "Antoine Mahul",
+      "schema:description": "Project PI"
+    },
+    {
+      "@type": "schema:Person",
+      "dct:conformsTo": "https://bioschemas.org/profiles/Person/0.3-DRAFT",
+      "@id": "https://orcid.org/0000-0001-6063-4214",
+      "schema:name": "Franck Giacomoni",
+      "schema:description": "Project PI",
+      "schema:mainEntityOfPage": "https://www.linkedin.com/in/franck-giacomoni-1979a074/"
+    }
+  ],
+  "schema:provider": [
+    {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+    {"@id":"https://orcid.org/0009-0001-6661-0691","@type":["schema:Person"]},
+    {"@id":"https://orcid.org/0000-0002-9729-1603","@type":["schema:Person"]}
+  ],
+  "schema:contributor": [
+    {"@id":"https://orcid.org/0000-0001-6063-4214","@type":["schema:Person"]},
+    {"@id":"https://orcid.org/0000-0003-2750-1473","@type":["schema:Person"]},
+    {"@id":"https://orcid.org/0000-0003-4550-1258","@type":["schema:Person"]}
+  ],
+  "schema:citation": [
+    {
+      "@id": "https://bio.tools/metabocloud",
+      "@type": "schema:SoftwareApplication"
+    }
+  ],
+  "schema:programmingLanguage": "https://w.wiki/9bxW",
+  "schema:softwareVersion": "1.0.0",
+  "schema:keywords": "Bioinformatics,Metabolomics,Chemistry",
+  "schema:hasPart": [
+    {
+      "@id":"https://bio.tools/cdk",
+      "@type": "schema:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "schema:name": "Chemistry Development Kit",
+      "schema:description": "Open Source modular Java libraries for Cheminformatics",
+      "schema:url": "https://cdk.github.io/"
+    },
+    {
+      "@id":"https://bio.tools/goslin",
+      "@type": "schema:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "schema:name": "Goslin",
+      "schema:description": "Grammar on succinct lipid nomenclature",
+      "schema:url": "https://github.com/lifs-tools/goslin"
+    },
+    {
+      "@id":"https://metabocloud.mesocentre.uca.fr/inchi/api/doc",
+      "@type": "schema:SoftwareApplication",
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE",
+      "schema:name": "IUPAC-InChI",
+      "schema:description": "The International Chemical Identifier converter",
+      "schema:url": "https://github.com/IUPAC-InChI/InChI"
+    }
+  ],
+  "schema:codeRepository": [
+    {"@id": "https://git.mesocentre.uca.fr/unh-metabocloud/catalog"}
+  ],
+  "schema:featureList": [
+    {"@id":"http://edamontology.org/operation_0226"},
+    {"@id":"http://edamontology.org/operation_2421"},
+    {"@id":"http://edamontology.org/operation_3434"},
+    {"@id":"http://purl.obolibrary.org/obo/T4FS_0000036"},
+    {"@id":"http://edamontology.org/operation_0337"}
+  ]
+}
